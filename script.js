@@ -58,3 +58,8 @@ toggleIcon.addEventListener('click', () =>{
     toggleIcon.classList.toggle('bx-moon');
     document.body.classList.toggle('light-mode');
 });
+
+
+function myFunction(){
+    window.alert("Massage Send Successfully!!!")
+}
