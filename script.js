@@ -59,7 +59,19 @@ toggleIcon.addEventListener('click', () =>{
     document.body.classList.toggle('light-mode');
 });
 
+let n=document.getElementById("name");
+let e=document.getElementById("email");
+let p=document.getElementById("number");
+let s=document.getElementById("subject");
+let m=document.getElementById("message");
 
 function myFunction(){
-    window.alert("Massage Send Successfully!!!")
+    if(n.value==""||e.value==""||p.value==""||s.value==""||m.value==""){
+        alert("Please Fill Up!!!")
+        return false;
+    }
+    else(
+        true
+    )
+    alert("Message Sent Successfully");
 }
